@@ -1,0 +1,58 @@
+body{
+    background-image: url(ritika1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third{
+    justify-content: center;
+    margin-left: 40%;
+}
+.fourth{
+    justify-content: center;
+    margin-left: 45%;
+}
+
+.second{
+    margin: auto;
+    width: 53rem;
+    height: 25rem;
+ background-image: url(ritika2.jpg); 
+ background-size: 100%; 
+ background-repeat: no-repeat;
+ margin-top: 3rem;
+ animation-name: ritika;
+ animation-duration: 1s;
+ animation-iteration-count: 1;
+
+}
+@keyframes ritika {
+    from {
+        width: 400px;
+    }
+    to {
+        width: 53rem;
+    }
+}
+.first{
+    width: 53rem;
+    height: 30rem;
+    box-sizing: border-box;
+    background-color: black;
+    margin: auto;
+    margin-top: 0px;
+    color: aliceblue;
+    text-align: center;
+    animation-name: ritika1;
+ animation-duration: 2s;
+ animation-iteration-count: 1;
+
+
+}
+@keyframes ritika1 {
+    from {
+        width: 400px;
+    }
+    to {
+        width: 53rem;
+    }
+}
